@@ -1,7 +1,10 @@
-num=float(input("Enter a number"))
-number=num2
-numbers=num4
-if (number==0 and numbers==0):
-    print("Multiplee of 4")
+num=int(input("Enter a number:"))
+
+if num %2 ==0:
+    print("Even")
+else:
+    print("Odd")    
     
+       
     
+    # modulus/modulo is represented by 10%
