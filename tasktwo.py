@@ -1,12 +1,12 @@
-def even() :
-num=int(input("Enter a number:"))
-if number %2 ==0:
-    print("Even")
-    
-else:
-    print("Odd")
-
-       
-    
-  # modulus/modulo is represented by 10%
-   # if condition: # if condition :
+def even(num):
+   if num %2 ==0:
+      print("The number is even")
+      if num % 4== 0:
+       print (str(num)+"is also divible by even")  
+      else:
+       pass
+   else:
+    print("Odd")   
+        
+   even() 
+   
