@@ -1,4 +1,5 @@
-def multiplication(a,b,c):
-    return a*b*c   
-    print(3,5,8)
-multiplication(3,5,8)
+def multiplication(y):
+    return y*y*y   
+print(multiplication(7))
+print(multiplication(8))
+print(multiplication(9))
