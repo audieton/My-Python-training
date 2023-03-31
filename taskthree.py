@@ -1,4 +1,6 @@
 phonenumber=int(input("Dail the number"))
-if phonenumber +254 or 7:
-    print("Any phone number")
+if phonenumber +254:
+    print("+254")
 else:pass
+
+
