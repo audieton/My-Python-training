@@ -3,10 +3,8 @@ def even() :
 if num %2 ==0:
     print("Even")
     
-if num %4==0 :
-   print("Number is divisble by four")
 else:
-    pass
+    print("Odd")
 
        
     
