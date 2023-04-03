@@ -18,3 +18,4 @@ else:
     #Otherwise
     #they need to put down 20%
     #print the down payment
+    
