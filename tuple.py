@@ -8,8 +8,9 @@ print(type(thistuple))
 
 # Tuple can be a string, integer, boolean. 
 tuple1= ("apple","cherry","bananas")
-tuple2= (1,2.3,4.5)
+tuple2= (1,2.3,4,5)
 tuple3= (True,False,False)
+
 
 # Tuple can take an data type
 tuple1 = ("abc",34,True,40,"male")
