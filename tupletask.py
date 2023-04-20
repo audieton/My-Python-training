@@ -28,3 +28,17 @@ print(thistuple[2:5])
 # this is a tuple range`
 thistuple = ("apple","banana","cherry","kiwi","melon","soap")
 print(thistuple[:2])
+
+thistuple = ("apple","banana","cherry","kiwi","melon","soap")
+print(thistuple[-4:-1])
+
+thistuple = ("apple","banana","cherry","kiwi","melon","soap")
+print(thistuple[-4:])
+
+
+# Check if a tuple exist in the items we use "in" keyword
+thistuple = ("apple","banana","cherry","kiwi","melon","soap")
+if "apple"  in thistuple:
+    print("Yes, 'apple is in this fruit tuple" )
+    
+   
