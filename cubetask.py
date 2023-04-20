@@ -1,13 +1,14 @@
-from cubefunc import area_of_cube,volume
+from cubefunc import Cube
 # Packages or modules.
 
 
-def area_of_cube(b=float(input("Enter the lenght of cube"))):
-    print(b)
+def area_of_cube(length):
     
-    area_of_cube()
+    return(length)*6
     
-def volume(b=float(input("Enter the lenght of cube"))):
-    print(b)
+area_of_cube()
     
-    volume()
+def volume(length):
+    return(length)*3
+    
+volume()

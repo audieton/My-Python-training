@@ -1,9 +1,5 @@
-def area_of_cube(b=float(input("Enter the lenght of cube"))):
-    print(b)*b
+class Cube():
+    length =0
     
-    area_of_cube()
-    
-def volume(b=float(input("Enter the lenght of cube"))):
-    print(b)*4
-    
-    volume()
+    def __init__(self) -> None:
+        pass
